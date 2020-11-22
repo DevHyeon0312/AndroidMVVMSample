@@ -1,23 +1,17 @@
 package com.devhyeon.mvvmSample.Main;
 
-import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.lifecycle.ViewModelProviders;
 
 import com.devhyeon.mvvmSample.Base.BaseActivity;
 import com.devhyeon.mvvmSample.Calculator.CalcViewModel;
 import com.devhyeon.mvvmSample.R;
 import com.devhyeon.mvvmSample.Usage.UsageActivity;
 import com.devhyeon.mvvmSample.databinding.ActivityMainBinding;
-
-import java.io.Serializable;
-import java.util.Calendar;
 
 /**
  * Created By DevHyeon on 2020.11.21

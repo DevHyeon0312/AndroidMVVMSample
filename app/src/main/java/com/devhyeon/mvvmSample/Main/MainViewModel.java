@@ -1,21 +1,11 @@
 package com.devhyeon.mvvmSample.Main;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.os.Parcelable;
-import android.util.Log;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.devhyeon.mvvmSample.Calculator.CalcModel;
-import com.devhyeon.mvvmSample.Usage.UsageActivity;
-
-import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.Calendar;
 
 /**

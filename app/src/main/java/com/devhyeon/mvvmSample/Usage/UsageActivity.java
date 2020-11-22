@@ -1,7 +1,6 @@
 package com.devhyeon.mvvmSample.Usage;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
 import androidx.annotation.NonNull;
@@ -11,8 +10,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import com.devhyeon.mvvmSample.Base.BaseActivity;
 import com.devhyeon.mvvmSample.Calculator.CalcModel;
 import com.devhyeon.mvvmSample.Calculator.CalcViewModel;
-import com.devhyeon.mvvmSample.Main.MainView;
-import com.devhyeon.mvvmSample.Main.MainViewModel;
 import com.devhyeon.mvvmSample.R;
 import com.devhyeon.mvvmSample.databinding.ActivityUsageBinding;
 
