@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
  * DevHyeon Git  : https://github.com/DevHyeon0312
  * CalcMain Model
  * */
-
 @Data @NoArgsConstructor @AllArgsConstructor
 class MainModel {
     private String nowTime;    //now time

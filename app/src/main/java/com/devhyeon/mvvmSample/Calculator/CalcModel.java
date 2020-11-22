@@ -16,13 +16,6 @@ import lombok.ToString;
  * DevHyeon Git  : https://github.com/DevHyeon0312
  * Calc Model
  * */
-
-/**
- * Created By DevHyeon on 2020.11.21
- * DevHyeon Blog : https://www.devhyeon.com
- * DevHyeon Git  : https://github.com/DevHyeon0312
- * Calc Model
- * */
 @Data @NoArgsConstructor @AllArgsConstructor
 public class CalcModel implements Parcelable {
     private String inputData = "";               //input  data

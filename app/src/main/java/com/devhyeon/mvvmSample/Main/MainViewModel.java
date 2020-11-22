@@ -14,7 +14,6 @@ import java.util.Calendar;
  * DevHyeon Git  : https://github.com/DevHyeon0312
  * Calc Model
  * */
-
 public class MainViewModel extends ViewModel {
     private MutableLiveData<MainModel> mainModel = new MutableLiveData<>();
 

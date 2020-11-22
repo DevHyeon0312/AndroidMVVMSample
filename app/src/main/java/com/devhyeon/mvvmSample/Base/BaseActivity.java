@@ -8,7 +8,6 @@ import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-
 /**
  * Created By DevHyeon on 2020.11.21
  * DevHyeon Blog : https://www.devhyeon.com
