@@ -12,9 +12,9 @@ import java.util.ArrayList;
  * */
 public interface UsageView {
 
-    void setCalcViewModel();
-
     void setAdapter();
+
+    void setCalcViewModel();
 
     void updateAdapter(ArrayList<CalcModel.CalcResult> list);
 

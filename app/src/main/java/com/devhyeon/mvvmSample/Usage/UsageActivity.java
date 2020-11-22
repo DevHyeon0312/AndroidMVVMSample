@@ -55,15 +55,16 @@ public class UsageActivity extends BaseActivity<ActivityUsageBinding> implements
     }
 
     @Override
+    public void updateAdapter(ArrayList<CalcModel.CalcResult> list) {
+        usageAdapter.addItem(list);
+        usageAdapter.notifyDataSetChanged();
+    }
+
+    @Override
     public void setAdapter() {
         usageAdapter = new UsageAdapter();
         xml.rvUsage.setLayoutManager(new LinearLayoutManager(this));
         xml.rvUsage.setAdapter(usageAdapter);
     }
 
-    @Override
-    public void updateAdapter(ArrayList<CalcModel.CalcResult> list) {
-        usageAdapter.addItem(list);
-        usageAdapter.notifyDataSetChanged();
-    }
 }
