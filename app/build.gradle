@@ -55,4 +55,7 @@ dependencies {
     //noinspection AnnotationProcessorOnCompilePath
     compileOnly 'org.projectlombok:lombok:1.18.16'
     annotationProcessor 'org.projectlombok:lombok:1.18.16'
+
+    /** ViewModel */
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
 }
